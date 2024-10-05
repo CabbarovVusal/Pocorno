@@ -1,0 +1,306 @@
+.tax-hero__inner-right-image {
+  background: url(https://www.popcornopolis.com/wp-content/uploads/550x300_Hero_Give_Cones_As_Gift.jpg)
+    no-repeat 50% 50% / cover;
+  height: 415px;
+  position: absolute;
+  top: -5%;
+  left: 53%;
+  border-radius: 12rem 0rem;
+  width: 550px;
+}
+
+.sponsor {
+  background: rgb(226, 39, 51);
+  padding: 3rem 4rem;
+  border-radius: 10rem 0 10rem 0rem;
+  display: flex;
+}
+.popcorn-gift {
+  margin-top: -5rem !important;
+}
+.tax-hero-popcorn-gift {
+  margin-top: 15rem !important;
+}
+.tax-hero {
+  width: 80%;
+  margin: 0 auto;
+
+  .inner {
+    width: 80%;
+  }
+}
+
+.tax-hero__inner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .subhead {
+    font-weight: 900;
+  }
+
+  .h1 {
+    color: rgb(255, 255, 255);
+    width: 70%;
+    font-size: 6rem;
+    font-family: "Faro", sans-serif;
+
+    .h1-span {
+      font-family: "Turbinado Dry Pro", sans-serif;
+    }
+
+    .dot {
+      color: #ffdc8b;
+    }
+  }
+}
+
+@media (max-width: 898px) and (min-width: 768px) {
+  .tax-hero {
+    width: 100%;
+
+    .tax-hero__inner {
+      height: 300px;
+    }
+
+    .tax-hero__inner-left {
+      margin-bottom: 0px;
+
+      .h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .subhead {
+    text-align: left !important;
+  }
+
+  .tax-hero__inner-right-image {
+    width: 350px;
+    height: 300px;
+    border-radius: 10rem 0rem;
+    top: -5%;
+    left: 47%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 898px) {
+  .tax-hero {
+    width: 100%;
+
+    .tax-hero__inner {
+      height: 300px;
+    }
+
+    .tax-hero__inner-left {
+      margin-bottom: 0px;
+
+      .h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .subhead {
+    text-align: left !important;
+  }
+
+  .tax-hero__inner-right-image {
+    width: 420px;
+    height: 300px;
+    border-radius: 10rem 0rem;
+    top: -5%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .tax-hero__inner-right-image {
+    height: 300px;
+    width: 400px;
+  }
+
+  .tax-hero__inner-left {
+    .h1 {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 767px) and (min-width: 648px) {
+  .product-section {
+    width: 100%;
+    margin-top: -13rem;
+
+    .tax-hero {
+      width: 100%;
+      margin-bottom: 10rem;
+
+      .tax-hero__inner {
+        border-radius: 0rem;
+        justify-content: center;
+      }
+
+      .tax-hero__inner-left {
+        margin-top: 7rem;
+        margin-bottom: 6rem;
+      }
+
+      .hero-front__inner--red {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .h1 {
+          text-align: center;
+          font-size: 3rem;
+          width: inherit;
+        }
+      }
+
+      .inner {
+        padding: 0px;
+        width: 100% !important;
+      }
+
+      .tax-hero__inner-right-image {
+        /* position: ; */
+        left: 0;
+        top: 80%;
+        width: 100%;
+        border-radius: 8rem 0rem;
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 647px) and (min-width: 425px) {
+  .product-section {
+    width: 100%;
+    margin-top: -13rem;
+
+    .tax-hero {
+      width: 100%;
+      margin-bottom: 10rem;
+
+      .tax-hero__inner {
+        border-radius: 0rem;
+        justify-content: center;
+      }
+
+      .tax-hero__inner-left {
+        margin-top: 7rem;
+        margin-bottom: 6rem;
+      }
+
+      .hero-front__inner--red {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .h1 {
+          text-align: center;
+          font-size: 3rem;
+          width: inherit;
+        }
+      }
+
+      .inner {
+        padding: 0px;
+        width: 100% !important;
+      }
+
+      .tax-hero__inner-right-image {
+        /* position: ; */
+        left: 0;
+        top: 80%;
+        width: 100%;
+        border-radius: 8rem 0rem;
+        height: 200px;
+      }
+    }
+  }
+
+  .product-section {
+    width: 100%;
+    margin-top: -13rem;
+
+    .tax-hero {
+      width: 100%;
+      margin-bottom: 10rem;
+
+      .tax-hero__inner {
+        border-radius: 0rem;
+        justify-content: center;
+      }
+
+      .tax-hero__inner-left {
+        margin-top: 7rem;
+        margin-bottom: 6rem;
+      }
+
+      .hero-front__inner--red {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .h1 {
+          text-align: center;
+          font-size: 3rem;
+          width: inherit;
+        }
+      }
+
+      .inner {
+        padding: 0px;
+      }
+
+      .tax-hero__inner-right-image {
+        /* position: ; */
+        left: 0;
+        top: 80%;
+        width: 100%;
+        border-radius: 8rem 0rem;
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 586px) {
+  .product-section {
+    .product-item {
+      margin: 0;
+      width: 80%;
+    }
+
+    .tax-hero {
+      .tax-hero__inner-left {
+        margin-top: 10rem;
+
+        .h1 {
+          font-size: 2rem !important;
+        }
+      }
+    }
+
+    .product-items {
+      margin: 0 auto;
+      align-items: center;
+      width: 90%;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .tax-hero__inner-left-header {
+    display: flex;
+    align-items: center;
+  }
+  .sponsor {
+    margin-top: -20rem !important;
+  }
+}

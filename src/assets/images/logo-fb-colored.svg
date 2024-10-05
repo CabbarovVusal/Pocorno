@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Сгруппировать_2225" data-name="Сгруппировать 2225" transform="translate(1 1)">
+    <g id="Эллипс_64" data-name="Эллипс 64" transform="translate(-1 -1)" fill="#fff" stroke="#d8e0f0" stroke-width="1">
+      <circle cx="28" cy="28" r="28" stroke="none"/>
+      <circle cx="28" cy="28" r="27.5" fill="none"/>
+    </g>
+    <g id="logo-facebook" transform="translate(10 10)">
+      <circle id="Эллипс_100" data-name="Эллипс 100" cx="16" cy="16" r="16" transform="translate(1 1)" fill="#1877f2"/>
+      <path id="Контур_2168" data-name="Контур 2168" d="M27.357,24.359l.71-4.625H23.629v-3a2.312,2.312,0,0,1,2.607-2.5h2.017V10.3a24.561,24.561,0,0,0-3.581-.313c-3.655,0-6.044,2.215-6.044,6.225v3.525H14.566v4.625h4.063V35.539a16.143,16.143,0,0,0,5,0V24.359Z" transform="translate(-4.129 -2.734)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

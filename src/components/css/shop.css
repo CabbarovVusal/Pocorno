@@ -1,0 +1,257 @@
+.shop-section {
+  margin-bottom: 10rem;
+}
+
+.tax-hero {
+  width: 100% !important;
+}
+.h1 {
+  font-size: 4rem !important;
+}
+.tax-hero-full {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.tax-hero-full .tax-hero__inner-deco {
+  border-radius: 0;
+  margin-top: -10rem;
+  height: 40rem;
+}
+
+.tax-hero__slim {
+  width: 80%;
+}
+
+.hero-front.tax-hero__inner-deco {
+  padding-bottom: 0;
+}
+
+.tax-hero__inner-deco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 14rem 0;
+  overflow: hidden;
+}
+
+.hero-front {
+  position: relative;
+  padding-bottom: 12.3rem;
+  overflow: hidden;
+}
+
+.hero-front .hero-deco-left {
+  position: absolute;
+  top: 0;
+  left: -5%;
+}
+
+.hero-front .hero-deco-right {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  overflow: hidden;
+}
+
+.tax-hero-full .tax-hero__inner-right {
+  float: right;
+  width: 50%;
+  position: relative;
+}
+
+.tax-hero__inner-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.span {
+  font-family: "Turbinado Dry Pro", sans-serif;
+}
+
+.subhead {
+  font-size: 1.5rem;
+}
+
+.tax-hero__inner-main-kernel {
+  transform: translate(-50%, -70%);
+  left: 50%;
+}
+
+.tax-hero__inner-large-kernel {
+  position: absolute;
+  transform: translate(-50%, 10%);
+  max-width: 17rem;
+  max-height: 17rem;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.cleared::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.tax-hero__inner-bottom-flavor {
+  transform: translate(250%, 50%);
+}
+
+.tax-hero__inner-right-flavor {
+  transform: translate(250%, -90%);
+}
+@media (max-width: 1024px) {
+  .tax-hero__slim {
+    align-items: flex-start !important;
+    margin: 0 !important;
+    margin-top: 10rem !important;
+    .tax-hero__inner-main-kernel {
+      max-width: 300px;
+      transform: translate(-40%, -30%);
+    }
+    .tax-hero__inner-large-kernel {
+      transform: translate(-50%, 170%);
+    }
+  }
+  .product-section {
+    .product-item {
+      width: 100%;
+    }
+    .card-item{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 768px) and (min-width: 531px) {
+  .tax-hero-full .tax-hero__inner-deco {
+    height: 35rem;
+  }
+
+  .product-section {
+    margin-top: 3rem !important;
+  }
+
+  .tax-hero__inner {
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .subhead {
+    text-align: center;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .tax-hero__slim {
+    width: 90%;
+    align-items: flex-start !important;
+    flex-wrap: wrap;
+  }
+
+  .tax-hero__inner-left {
+    margin-bottom: 10rem;
+  }
+
+  .tax-hero__inner-paragraph {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+  }
+  .hero-front__inner--red {
+    .h1 {
+      font-size: 2rem !important;
+      width: 150% !important;
+    }
+  }
+}
+@media (max-width: 531px) {
+  .shop-section {
+    margin-bottom: 3rem !important;
+    .product-section {
+      margin-top: 4rem !important;
+      .product-item {
+        width: 100%;
+        flex-wrap: wrap;
+        .card {
+          width: 50%;
+          .card-img {
+            border-radius: 0 2rem 0 2rem;
+            height: 150px;
+            img {
+              position: static;
+              width: 120px;
+              height: 120px;
+              width: 100% !important;
+            }
+          }
+          .product-title {
+            font-size: 1rem;
+          }
+          .product-price {
+            font-size: 1rem;
+          }
+          .basket-icon {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .tax-hero__inner {
+      padding: 0 !important;
+      flex-direction: column;
+      .subhead {
+        font-size: 0.9rem;
+      }
+      .h1 {
+        font-size: 0.9rem !important;
+      }
+    }
+    .tax-hero__slim {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .tax-hero__inner-right {
+      .tax-hero__inner-main-kernel {
+        max-width: 15rem;
+        transform: translate(-50%, 0%);
+      }
+      .tax-hero__inner-large-kernel {
+        max-width: 6rem;
+        transform: translate(-150%, 180%);
+      }
+      .tax-hero__inner-bottom-flavor {
+        max-width: 5rem;
+        transform: translate(180%, 350%);
+      }
+      .tax-hero__inner-right-flavor {
+        max-width: 5rem;
+        transform: translate(220%, 150%);
+      }
+    }
+    .cleared {
+      margin-top: -6rem;
+      .tax-hero__inner-paragraph {
+        align-items: center;
+        .subhead {
+          font-size: 1.2rem !important;
+        }
+        .hero-front__inner--red {
+          width: 100%;
+          display: block;
+          margin-bottom: 2rem;
+          .tax-hero-head {
+            font-size: 1.9rem !important;
+            width: 117% !important;
+          }
+        }
+      }
+    }
+  }
+}

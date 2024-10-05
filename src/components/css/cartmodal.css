@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .card-modal {
+    width: 100% !important;
+    max-width: 54.4rem !important;
+  }
+}

@@ -1,0 +1,169 @@
+.section-snacking {
+  margin: 20rem auto;
+  .shop-now__right {
+    margin: 0 4rem;
+    background: url(https://www.popcornopolis.com/wp-content/uploads/947569-ConeTall-Swirl-Takis-PDP-SI2-style-02-2.jpg)
+      no-repeat 50% 50% / cover;
+    width: 75%;
+    background-size: cover;
+    border-radius: 0 13rem 0 19rem;
+    height: 40rem;
+  }
+  .shop-now__inner {
+    position: relative;
+    .shop-now__left {
+      position: absolute;
+      border-radius: 8rem 0 10rem 0;
+      top: 30%;
+      left: 60%;
+      width: 40%;
+      height: 39rem;
+      z-index: 1;
+      background-color: #84c4ec;
+      padding: 8%;
+      .shop-now__left__inner {
+        position: inherit;
+        .with-deco {
+          font-size: 2.1rem !important;
+          color: #412015;
+        }
+        .h1 em {
+          font-size: 2em !important;
+          color: #7f441d;
+        }
+        p {
+          width: 80%;
+          font-weight: bold;
+          color: #412015;
+        }
+        a {
+          background-color: #fed455;
+          padding: 3% 5%;
+          display: flex;
+          align-items: center;
+          width: 45%;
+          justify-content: center;
+          transition: all 0.5s;
+          color: black;
+          font-size: 0.8rem;
+          font-weight: bold;
+          margin-top: 15px;
+          border-radius: 40px;
+          .arrow-right {
+            margin-left: 1rem;
+          }
+        }
+        a:hover {
+          background-color: #f7c44a;
+          width: 50%;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}
+
+/* RESPONSIBILITY */
+
+@media (max-width: 1440px) {
+  .shop-now__right {
+    max-height: 60rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 851px) {
+  .section-snacking {
+    .shop-now__right {
+      margin: 0px;
+      width: 90%;
+      border-radius: 0rem 10rem 0rem 10rem;
+    }
+    .shop-now__inner {
+      .shop-now__left {
+        width: 50%;
+        left: 52%;
+        border-radius: 10rem 0rem 10rem 0rem;
+        .h1 {
+          font-size: 1.8rem;
+        }
+        a {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 851px) and (max-width: 1024px) {
+  .section-snacking {
+    .shop-now__right {
+      margin: 0px;
+      width: 90%;
+      border-radius: 0rem 10rem 0rem 10rem;
+    }
+    .shop-now__inner {
+      .shop-now__left {
+        width: 50%;
+        left: 52%;
+        border-radius: 10rem 0rem 10rem 0rem;
+        .h1 {
+          font-size: 1.8rem;
+        }
+        a {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) and (min-width: 566px) {
+  .section-snacking {
+    .shop-now__right {
+      margin: 0px;
+      width: 100%;
+      border-radius: 0rem 6rem 0rem 0rem;
+    }
+    .shop-now__inner {
+      .shop-now__left {
+        top: 70%;
+        width: 100%;
+        left: 0;
+        height: 30rem;
+        border-radius: 0rem 0rem 0rem 6rem;
+        .h1 {
+          font-size: 1.8rem;
+        }
+        a {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 565px) {
+  .inner {
+    margin: 1px auto !important;
+  }
+  .section-snacking {
+    .shop-now__right {
+      margin: 0px;
+      margin-top: 4rem;
+      width: 100%;
+      border-radius: 0rem 6rem 0rem 0rem;
+    }
+    .shop-now__inner {
+      margin: 15rem auto;
+      .shop-now__left {
+        top: 70%;
+        width: 100%;
+        left: 0;
+        height: 32rem;
+        border-radius: 0rem 0rem 0rem 4rem;
+        .h1 {
+          font-size: 1.8rem;
+        }
+        a {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

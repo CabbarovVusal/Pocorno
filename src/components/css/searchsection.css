@@ -1,0 +1,103 @@
+/* searchsection.css */
+.search-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-box {
+  width: 90%;
+  background-color: white;
+  border-bottom-right-radius: 6rem;
+  padding: 20px;
+  position: relative;
+  height: auto;
+}
+
+.search-box__inner {
+  width: 100%;
+  position: relative;
+}
+
+.search-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input__inner {
+  width: 30%;
+  padding: 0.5rem 22px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  font-family: "Sofia Pro", sans-serif;
+  font-weight: 600;
+}
+
+.product-list {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  font-family: "Sofia Pro", sans-serif !important;
+  margin-bottom: 0.5rem;
+
+  .product-title {
+    color: #6e3e2c;
+    font-weight: 500 !important;
+    transition: color 0.35s;
+  }
+}
+
+.product-img {
+  width: 40px;
+  height: 40px;
+}
+
+.product-count {
+  width: 30%;
+  margin: 0 auto !important;
+  font-family: "Sofia Pro", sans-serif !important;
+  font-weight: 500 !important;
+  color: #81736e;
+  font-size: 0.7rem !important;
+  margin-bottom: 10px !important;
+}
+
+.product-paragraph {
+  color: #81736e !important;
+  font-size: 0.9rem !important;
+  font-family: "Sofia Pro" !important;
+  font-weight: 500 !important;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0;
+  left: 99%;
+  background: url(/src/assets/images/download.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 768px) {
+  .product-list {
+    width: 100%;
+  }
+  .product-count {
+    width: 100%;
+  }
+  .search-input__inner {
+    width: 80%;
+  }
+}

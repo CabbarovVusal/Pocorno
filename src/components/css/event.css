@@ -1,0 +1,30 @@
+.section-2 {
+  .flex-promo-highlight__left {
+    margin: 0 4rem;
+    .h1 {
+      color: #613223;
+      span {
+        font-family: "Turbinado Dry Pro", sans-serif;
+        font-size: 1.5em !important;
+        font-weight: 700;
+        line-height: 0.51em;
+        margin-top: -0.1em;
+        position: relative;
+        top: 0.1em;
+      }
+    }
+    .paragraph {
+      font-size: 3.6rem;
+      line-height: 1.06;
+      margin-bottom: 0;
+      font-weight: 900;
+      font-family: "Sofia Pro", sans-serif;
+      color: #613223;
+    }
+  }
+}
+@media (max-width: 565px) {
+  .flex-promo-highlight__left {
+    margin: 0px !important;
+  }
+}

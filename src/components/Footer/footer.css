@@ -1,0 +1,284 @@
+.footer {
+  background: url(//www.popcornopolis.com/wp-content/themes/popcornopolis/assets/css/../images/bg-footer.jpg)
+    no-repeat 0 100% / cover;
+  padding: 9.7rem 0 8.7rem;
+  .img-box {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .icon-box {
+    .icon {
+      padding: 5%;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      color: #e22733;
+    }
+    span {
+      cursor: pointer;
+    }
+    span:hover {
+      text-decoration: underline;
+    }
+  }
+  .footer-nav-list {
+    height: 120px;
+  }
+  .footer-nav-list:nth-child(4) {
+    height: 90px;
+  }
+  .footer__copyright__left {
+    width: 74%;
+    a:hover {
+      text-decoration: underline;
+    }
+    a {
+      border-right: 1px solid #ffdee2;
+      padding-right: 5px;
+      color: #ffdee2;
+    }
+  }
+  .footer-bottom-created {
+    span {
+      font-weight: bold;
+    }
+  }
+}
+.newsletter {
+  background: url(//www.popcornopolis.com/wp-content/themes/popcornopolis/assets/css/../images/bg-newsletter.jpg)
+    no-repeat 100% 100% / cover;
+  height: 15rem;
+  position: relative;
+  display: flex;
+  max-width: 1546px;
+  margin: 0 auto;
+  .newsletter__inner {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    h2 {
+      width: 60%;
+      font-size: 2.5rem;
+      line-height: 1.06;
+      margin-bottom: 0;
+      font-weight: 900;
+      margin-left: 30px;
+      font-family: "Sofia Pro", sans-serif;
+    }
+    #your-email-subscribe {
+      border-radius: 35px;
+      height: 3rem;
+      padding: 2% 4%;
+      width: 22rem;
+      font-weight: 700;
+    }
+    .circle-btn {
+      left: 88%;
+      width: 47px;
+      height: 47px;
+      background: #fed455;
+      border-radius: 50%;
+    }
+  }
+  span {
+    top: -38%;
+  }
+}
+.newsletter:before {
+  bottom: 100%;
+  left: 6%;
+  width: 11.9rem;
+  background: url(../../assets/images/converted_image.svg) no-repeat 50% 100% /
+    contain;
+  height: 4rem;
+  content: "";
+  display: block;
+  position: absolute;
+}
+.benefits {
+  color: #613223;
+  p {
+    margin-bottom: 0;
+    .strong {
+      font-size: 17rem;
+      font-family: "Turbinado Dry Pro", sans-serif;
+      font-style: normal;
+    }
+    .em {
+      font-size: 5rem;
+      font-family: "Sofia Pro", sans-serif;
+      color: #e22733;
+      font-weight: 900;
+      padding: 0;
+      display: inline-block;
+      vertical-align: top;
+      font-style: normal;
+      position: relative;
+      line-height: 0.84;
+      padding-bottom: 20px;
+    }
+  }
+  .benefits__rating {
+    width: 55%;
+    line-height: 1;
+    font-size: 2rem;
+    position: relative;
+    font-family: "Sofia Pro", sans-serif;
+    .benefits__rating-stars {
+      content: "";
+      position: absolute;
+      top: 6.5rem;
+      width: 100%;
+      height: 30px;
+      text-indent: -9999px;
+      background: url(../../assets/images/stars.svg) no-repeat 0 0;
+      transition: width 0.5s 0.2s;
+      left: 0;
+    }
+    .rating-paragraph {
+      font-weight: 900;
+    }
+    .strong-paragraph {
+      font-size: 1rem;
+      width: 40%;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-paragraph {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  .newsletter {
+    span {
+      top: -20%;
+      img {
+        width: 120px;
+      }
+    }
+    .newsletter__inner {
+      .h2 {
+        font-size: 1.8rem;
+      }
+      #your-email-subscribe {
+        width: fit-content;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .newsletter {
+    margin: 5rem 0 0 0;
+    .newsletter__inner {
+      flex-direction: column;
+      width: 100%;
+      .h2 {
+        width: 100%;
+        margin-left: 0px !important;
+      }
+      #your-email-subscribe {
+        width: 100%;
+        margin-top: 2rem;
+      }
+      .circle-btn {
+        bottom: 0;
+        left: 90%;
+      }
+    }
+  }
+  .benefits {
+    .inner {
+      display: flex;
+      flex-direction: column;
+      p {
+        flex-direction: column;
+        text-align: center;
+        .em {
+          font-size: 2.5rem;
+        }
+        .strong {
+          margin-bottom: -3rem;
+          font-size: 9.2rem;
+        }
+      }
+      .benefits__rating {
+        width: 100%;
+        .rating-paragraph {
+          width: 100%;
+          margin-top: 1.5rem;
+        }
+        .strong-paragraph {
+          width: 100%;
+          text-align: center;
+        }
+        .benefits__rating-stars {
+          top: -0.5rem;
+          background: url(/@fs/H:/GitHubProjects/popcornopolis/src/assets/images/stars.svg)
+            no-repeat 50% 50%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 497px) {
+  .newsletter {
+    .newsletter__inner {
+      .circle-btn {
+        left: 87% !important;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) and (min-width: 901px) {
+  .benefits {
+    p {
+      .strong {
+        font-size: 10rem;
+      }
+      .em {
+        font-size: 3rem;
+        margin-left: 30px;
+      }
+    }
+    & .benefits__rating {
+      .benefits__rating-stars {
+        top: 1.5rem;
+        width: 100%;
+      }
+      .strong-paragraph {
+        width: 40%;
+      }
+    }
+  }
+}
+@media (max-width: 900px) and (min-width: 768px) {
+  .benefits {
+    margin-bottom: 7rem;
+    .guarantee-paragraph {
+      align-items: flex-start;
+      flex-direction: column;
+      .strong {
+        font-size: 7rem;
+        margin-bottom: -3rem;
+      }
+      .em {
+        font-size: 2.5rem;
+      }
+    }
+    .benefits__rating {
+      justify-content: end;
+      .benefits__rating-stars {
+        top: 3.5rem;
+        width: 100%;
+      }
+      .strong-paragraph {
+        width: 40%;
+      }
+    }
+  }
+}

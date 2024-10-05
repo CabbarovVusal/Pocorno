@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Faro";
+  src: url("../src/assets/fonts/Faro-DisplaySad.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Turbinado";
+  src: url("../src/assets/fonts/FontsFree-Net-turbinado-bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "sofia-pro";
+  src: url("../src/assets/fonts/Sofia\ Pro\ Regular\ Az.otf") format("truetype");
+}
+
+.font-sofia {
+  font-family: "sofia-pro";
+}
+
+.shop-nav-btn {
+  width: 100% !important;
+  height: auto;
+}
+
+.font-turbinado {
+  font-family: "Turbinado";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h7,
+.h8,
+.h9 {
+  font-weight: 400;
+  font-family: "Faro", sans-serif;
+  line-height: 1.2;
+}
+span {
+  font-family: "Faro", sans-serif;
+}
+.cards:hover .image-hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+.group- {
+  margin-top: 10rem;
+}
+.shop-section {
+  margin-top: 8rem !important;
+}
+.discover-more {
+  margin-top: 10rem !important;
+}
+
+.cards:hover .button-hover {
+  background-color: #ffa400;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  transition: all 0.3s ease, padding 0.3s ease;
+}
+
+.cards1:hover .button-hover1 {
+  background-color: #ffa400;
+  padding-right: 56px;
+  padding-left: 56px;
+  transition: all 0.3s ease, padding 0.3s ease;
+}
+
+.font-faro {
+  font-family: "Faro";
+}
+
+body {
+  background-color: #fcf5f0;
+}
+@font-face {
+  font-family: "Faro";
+  src: url(../src/assets/fonts/FaroWeb-DisplayLucky.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

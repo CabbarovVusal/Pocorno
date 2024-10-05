@@ -1,0 +1,110 @@
+.product-items {
+  width: 80%;
+  margin: 0 auto;
+
+  .card {
+    width: 30%;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .product-section {
+    .card {
+      .product-title {
+        font-size: 0.9rem;
+        color: #613223;
+        font-family: "Faro", sans-serif;
+      }
+    }
+    .product-items {
+      width: 100%;
+      .card {
+        width:32%;
+        border-radius: 0 2rem 0 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .product-section {
+    margin-top: 3rem !important;
+    margin-bottom: 0rem !important;
+    .category {
+      width: 90%;
+      .best-sellers {
+        padding: 3% 10%;
+        font-size: 0.9rem;
+        width: 40%;
+      }
+      .filter-btn {
+        font-size: 0.9rem;
+        padding: 3% 10%;
+        width: 40%;
+        background-position-x: 30px;
+      }
+    }
+    .product-item {
+      margin: 0 auto !important;
+      flex-wrap: wrap;
+      padding-top: 3rem;
+      width: 100% !important;
+      .card {
+        width: 50%;
+        .card-img {
+          height: 160px;
+          width: 100%;
+          border-radius: 0 2rem 0 2rem;
+          .img {
+            position: static;
+            width: 120px;
+            height: 120px;
+          }
+        }
+        .product-title {
+          font-size: 0.8rem;
+        }
+        .product-price {
+          font-size: 0.9rem;
+        }
+        .basket-icon {
+          font-size: 1.3rem;
+        }
+      }
+    }
+    .product-items {
+      width: 100% !important;
+      margin: 0 auto !important;
+      .card {
+        width: 50%;
+        margin-bottom: 0;
+        .card-img {
+          height: 160px;
+          width: 100%;
+          border-radius: 0 2rem 0 2rem;
+          .img {
+            position: static;
+            width: 120px;
+            height: 120px;
+          }
+        }
+        .product-title {
+          font-size: 0.8rem;
+        }
+        .product-price {
+          font-size: 0.9rem;
+        }
+        .basket-icon {
+          font-size: 1.3rem;
+        }
+      }
+    }
+    .h1 {
+      width: 100% !important;
+    }
+    .subhead {
+      font-size: 0.9rem !important;
+    }
+  }
+}

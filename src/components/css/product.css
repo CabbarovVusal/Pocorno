@@ -1,0 +1,198 @@
+.product-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  max-width: 1540px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .category {
+    height: 5rem;
+    width: 80%;
+    margin: 0 auto;
+
+    .filter-btn {
+      color: #613223;
+      width: 13rem;
+      font-size: 1.1rem;
+      line-height: 1.33;
+      font-weight: 700;
+      border: 2px solid #cfc1bc;
+      border-radius: 2.4rem;
+      padding: 1% 0%;
+      box-sizing: border-box;
+      background: #fff
+        url(//www.popcornopolis.com/wp-content/themes/popcornopolis/assets/css/../images/filter-icon.svg)
+        no-repeat 40px 50%;
+    }
+
+    .best-sellers {
+      padding: 1% 5%;
+      cursor: pointer;
+      width: 13rem;
+      border: 2px solid #cfc1bc;
+      border-radius: 2.4rem;
+      appearance: none;
+      color: #613223;
+      font-size: 1.1rem;
+      line-height: 1.33;
+      font-weight: 700;
+      background: #fff
+        url(//www.popcornopolis.com/wp-content/themes/popcornopolis/assets/css/../images/sort-icon.svg)
+        no-repeat 17px 50%;
+    }
+
+    select:not(:-internal-list-box) {
+      overflow: visible !important;
+    }
+  }
+
+  hr {
+    background-color: white;
+    height: 2px;
+    width: 100%;
+  }
+
+  .product-item {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 80%;
+  }
+
+  .card {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    background-color: transparent;
+    padding: 1rem;
+    transition: all 0.3s ease;
+
+    .product-title {
+      font-size: 1.4rem;
+      color: #613223;
+      font-family: "Faro", sans-serif;
+    }
+
+    .product-price {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .pack {
+      font-weight: 400;
+      font-size: 1rem;
+    }
+    .basket-icon {
+      color: #be2119;
+      font-size: 1.5rem;
+    }
+
+    .card-img {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 0 6rem 0 6rem;
+      width: auto;
+      height: 240px;
+
+      .img {
+        position: absolute;
+        top: -75px;
+        max-width: 100%;
+        height: 280px;
+        width: 250px;
+        object-fit: cover;
+        z-index: 2;
+      }
+    }
+  }
+
+  .card:hover .card-img {
+    border: 0.9rem solid rgba(255, 255, 255, 0.4);
+    background-color: #e7730d;
+    transition: background-color 0.5s ease;
+  }
+
+  .card:hover .img {
+    top: -89px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .product-section {
+    .category {
+      .best-sellers {
+        padding: 1% 7%;
+      }
+    }
+
+    .card {
+      /* height: 200px; */
+
+      .product-title {
+        font-size: 0.9rem;
+        color: #613223;
+        font-family: "Faro", sans-serif;
+      }
+
+      .card-img {
+        height: 200px;
+
+        .img {
+          position: static;
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) and (min-width: 531px) {
+  .product-section {
+    margin-top: 8rem;
+    .product-item {
+      width: 90%;
+      flex-wrap: wrap;
+      margin-top: 0rem;
+    }
+    .h1 {
+      font-size: 2rem !important;
+    }
+    .nav-container {
+      .group {
+        width: 65px !important;
+        height: 65px !important;
+        padding: 10px !important;
+      }
+    }
+
+    .card {
+      .product-title {
+        font-size: 0.9rem;
+        color: #613223;
+        font-family: "Faro", sans-serif;
+      }
+
+      .card-img {
+        height: 200px;
+        width: 230px;
+
+        .img {
+          position: static;
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+
+    .category {
+      .best-sellers {
+        padding: 1% 10%;
+      }
+    }
+  }
+}

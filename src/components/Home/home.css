@@ -1,0 +1,18 @@
+.content-container {
+  margin-top: -10rem;
+}
+.padding {
+  padding: 0px !important;
+}
+.w-auto {
+  width: auto !important;
+}
+.h-auto {
+  height: 450px !important;
+}
+.h-450{
+    height: auto;
+}
+.obsessed {
+  margin-top: 20rem;
+}
